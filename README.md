@@ -1,6 +1,6 @@
 # NGA 论坛指定板块帖子抓取脚本
 
-这是一个 Python 脚本，用于从 NGA 论坛 (bbs.nga.cn) 的特定板块抓取帖子列表和每个帖子的第一页内容。它采用 Selenium 绕过 Cloudflare 的 JavaScript 验证（"五秒盾"）来获取有效的 Cookie，然后使用 `requests` 库进行高速并发抓取，最后将结果保存为 CSV 文件。
+这是一个 Python 脚本，用于从 NGA 论坛 (bbs.nga.cn) 的特定板块抓取帖子列表和每个帖子的第一页内容。它采用 Selenium 绕过JavaScript 验证来获取有效的 Cookie，然后使用 `requests` 库进行高速并发抓取，最后将结果保存为 CSV 文件。
 
 ## ✨ 功能特性
 
